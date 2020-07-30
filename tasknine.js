@@ -1,5 +1,5 @@
 function specialMultiply  (first, second) {
-	if (second) {
+	if (arguments[1]) {
 		return arguments[0] * arguments[1]
 	}
 	return function(second) {
